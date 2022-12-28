@@ -1,0 +1,123 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.name-section{
+    color: white;
+    width: 225px;
+    height: 280px;
+    background-color:  hsl(246, 80%, 60%);
+    border-radius: 10px;
+    
+}
+
+.profile img{
+    width: 60px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.report{
+    font-size:15px;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.525);
+}
+.name{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size:30px;
+    font-weight: 200;
+}
+
+.time-section{
+    background-color: hsl(235, 46%, 20%);
+    height: 120px;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.daily{
+    color: rgba(255, 255, 255, 0.154);
+}
+.weekly{
+    margin-top: 15px;
+}
+.monthly{
+    margin-top: 15px;
+   color: rgba(255, 255, 255, 0.154)
+}
+
+.conatiner{
+    display: flex;
+}
+
+.upper{
+    background-color:hsl(15, 100%, 70%);
+    width: 240px;
+    height: 40px;
+    border-top-left-radius: 10px;   
+    border-top-right-radius: 10px;   
+    overflow: hidden;
+}
+
+.upper-icon{
+display: flex;
+justify-content: flex-end;
+padding-right: 10px;
+
+}
+.upper img
+ {
+
+    width: 55px;
+  
+}
+
+
+.main{
+    width: 200px;
+    color: #fff;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 20px;
+    /* padding-right: 120px; */
+}
+.hours{
+    font-size: 50px;
+    margin-top: 12px;
+}
+.week{
+    color: rgba(255, 255, 255, 0.491);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.card{
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.layer{
+    display: flex;
+}
+
