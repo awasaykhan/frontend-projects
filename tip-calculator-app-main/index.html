@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<!-- 
+  Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset -->
+  
+  <div class="container">
+    <div class="left">
+      <div class="bill">
+        <div class="text">Bill</div>
+        <div class="billnumber">
+          <div class="logo">$</div>
+          <div class="numberinput">142.55</div>
+        </div>
+      </div>
+      <div class="selecttip">
+        <div class="selecttext">Select Tip %</div>
+        <div class="firstrow">
+          <div class="numberbox" id="firstbox">5%</div>
+          <div class="numberbox">10%</div>
+          <div class="numberbox" id="active">15%</div>
+        </div>
+        <div class="secondrow">
+          <div class="numberbox">25%</div>
+          <div class="numberbox">50%</div>
+          <div class="numberbox" id="custom">Custom</div>
+        </div>
+      </div>
+      <div class="numberofpeople">
+        <div class="text">Number of People</div>
+        <div class="numberinput-2">
+          <div class="logo">
+           <img
+           
+            src="./user.png" alt="">
+          </div>
+          <div class="number">5</div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="firstline">
+        <div class="amounttext">
+          <div class="am">Tip Amount</div>
+          <div class="per">/person</div>
+        </div>
+        <div class="amount">$4.27</div>
+      </div>
+      <div class="secondline">
+        <div class="amounttext">
+          <div class="am">Total</div>
+          <div class="per">/person</div>
+        </div>
+        <div class="amount">$32.79</div>
+      </div>
+      <div class="reset">RESET</div>
+      
+      
+    </div>
+
+  </div>
+
+
+
+
+</body>
+</html>
